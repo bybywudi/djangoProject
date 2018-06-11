@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zhuce</title>
+    <form action="/index/" method="post">
+        username:<input type="text" name="username"><br/>
+        password:<input type="test" name="password"><br/>
+        <input type="submit" name="提交">
+    </form>
+
+    {% for foo in data %}
+        {{ foo.username }}+{{ foo.password }}<br/>
+    {% endfor %}
+
+</head>
+<body>
+
+</body>
+</html>
